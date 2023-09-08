@@ -8,8 +8,6 @@ eachPanel.forEach(panel => {
         panel.classList.remove("open" ,"open-active");
     } else {
         panel.classList.add("open","open-active");
-    }
-        
-        
+    }    
     });
 });
