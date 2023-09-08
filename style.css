@@ -101,8 +101,11 @@
         transform: translateY(900%);
         
       }
-      .open-active p:nth-child(odd){
-        transform: translateY(0%);
+      .open-active p:first-child{
+        transform: translateY(-200%);
         
+      }
+      .open-active p:last-child{
+        transform: translateY(200%);
         
       }
